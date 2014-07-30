@@ -10,7 +10,7 @@ For the presentation and content, please see this Prezi:
 
 ## Problem
 
-*The problem:*  Given a table in a database with user information `firstname`, `lastname`, and `email`, write to an additional table a set of entries that include an email alias of type `firstname.lastname@example.org` associated with the origina email address. The entries need to be unique per user, and proerly formatted strings that are valid email addresses.
+*The problem:*  Given a table in a database with user information `firstname`, `lastname`, and `email`, write to an additional table a set of entries that include an email alias of type `firstname.lastname@example.org` associated with the original email address. The entries need to be unique per user, and proerly formatted strings that are valid email addresses.
 
 The final execution of this should only be done once, but the process should be validated in a suitable test environment. Artifacts of the test process should be treated as part of the codebase of the script.
 
