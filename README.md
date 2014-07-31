@@ -18,12 +18,28 @@ The solution must be captured in version control and code reviewed by another st
 
 ## Environment
 
-The structure of the tutorial environment is simply a MySQL database, with two tables. The first table is as follows:
+The structure of the tutorial environment is simply a MySQL database, with two tables. The first table is structured as follows:
+
+```
++----+------------+-----------+---------------------------+
+| id | first_name | last_name | email                     |
++----+------------+-----------+---------------------------+
+|  1 | Laurine    | Deskin    | Deskin6744@example.org    |
+|  2 | Irwin      | Gholston  | Gholston24153@example.org |
+|  3 | Beth       | Lafrance  | Lafrance5175@example.org  |
++----+------------+-----------+---------------------------+
+```
 
 And is populated with sample data.
 
 The second table has the following structure:
 
+```
++----+---------------+-------+
+| id | primary_email | alias |
++----+---------------+-------+
++----+---------------+-------+
+```
 but is empty. 
 
 Each student or pair will be given their own database to work with. 
