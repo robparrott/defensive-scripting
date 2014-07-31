@@ -16,6 +16,22 @@ The final execution of this should only be done once, but the process should be 
 
 The solution must be captured in version control and code reviewed by another student. In addition, the process for executing the solution script should be documented with the code, and also part of version control.
 
+## Requirements
+
+The solution to the problem must demonstrate the defensive techniques as follows:
+
+1. Demonstration of input validation of any script arguments and the data source
+2. Validation of return codes and values when executing commands
+3. Assertion testing of the state of data and the environment
+4. Code reuse and hygiene, including both variables and functions
+5. Canonicallized data (if appropriate)
+6. Code code structure, variable and function naming, and comments
+7. Logging of actions and results
+8. Clear visibility into the state of the program on execution, and the ability to do a "Dry run"
+9. Abrupt failure on error conditions, with clear output as to failure mode.
+
+Last but not least, a clear mechanism to test and validate the code outside of production.
+
 ## Environment
 
 The structure of the tutorial environment is simply a MySQL database, with two tables. The first table is structured as follows:
